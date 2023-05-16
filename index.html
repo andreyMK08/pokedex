@@ -16,11 +16,13 @@
     <link rel="stylesheet" href="./src/css/scrollbar.css">
 </head>
 
-<body background="./src/imagens/fundo-pokemon.jpg" alt="tela de fundo" class="fundo" >
+<body background="./src/imagens/fundo-pokemon.jpg" alt="tela de fundo" class="fundo">
 
     <header>
         <a href="#">
-            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo" />
+            <button id="botao-alterar-imagem">
+                <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo" />
+            </button>
         </a>
         <button id="botao-alterar-tema">
             <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao" />
@@ -28,13 +30,12 @@
     </header>
     <main>
         <ul class="listagem-pokemon">
-            <li class="cartao-pokemon">
+            <li class="cartao-pokemon bulbasaur">
                 <div class="informacoes">
                     <span>Bulbasaur</span>
                     <span>#001</span>
                 </div>
                 <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif" />
-
                 <UL class="tipos">
                     <li class="tipo grama">Grama</li>
                     <li class="tipo veneno">Veneno</li>
@@ -48,6 +49,7 @@
                     <span>#002</span>
                 </div>
                 <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif" />
+
                 <UL class="tipos">
                     <li class="tipo grama">Grama</li>
                     <li class="tipo veneno">Veneno</li>
@@ -153,9 +155,12 @@
                     inimigos.</p>
             </li>
         </ul>
-        
-    </main>  
+
+
+
+    </main>
 
     <script src="./src/js/index.js"></script>
 </body>
+
 </html>

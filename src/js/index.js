@@ -23,3 +23,41 @@ botaoAlterarTema.addEventListener("click", () => {
 
 
 });
+
+const botaoAlterarImagem = document.getElementById("botao-alterar-imagem");
+
+console.log(botaoAlterarImagem);
+
+const imagemBotaoTrocaImagem = document.querySelector(".logo");
+
+
+botaoAlterarImagem.addEventListener("click", () => {
+
+    const trocarImagem = body.classList.contains("trocar-imagem");
+
+    body.classList.toggle("trocar-imagem");
+
+    if (trocarImagem) {
+
+        imagemBotaoTrocaImagem.setAttribute("src", "./src/imagens/pokeball.png");
+
+    } else {
+        imagemBotaoTrocaImagem.setAttribute("src", "./src/imagens/logo-pokebola-aberta.png");
+
+    };
+
+
+});
+
+
+
+var elementosBulbasaur = document.querySelectorAll('.cartao-pokemon:contains("Bulbasaur")');
+elementosBulbasaur.forEach(function(elemento) {
+  elemento.classList.add('bulbasaur');
+});
+
+
+
+
+
+
