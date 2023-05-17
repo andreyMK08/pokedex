@@ -3,7 +3,7 @@ html {
 }
 
 
-  /*li.bulbasaur {
+/*li.bulbasaur {
     background-image: url("../imagens/card-bulbasaur.png");
     background-size: cover;
     background-position: center;
@@ -12,6 +12,11 @@ html {
   }
 */
 
+  main .cartao-pokemon.nova-imagem-li {
+    padding: 0;
+  }
+  
+ 
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -27,6 +32,7 @@ body.modo-escuro {
 }
 
 body.fundo {
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -44,13 +50,12 @@ header .imagem-botao {
     transition: 0.2s ease-in-out;
 }
 
-header #botao-alterar-tema
- {
+header #botao-alterar-tema {
     background: none;
     border: none;
 }
 
-header #botao-alterar-imagem{
+header #botao-alterar-imagem {
     background: none;
     border: none;
 }
@@ -73,7 +78,7 @@ main .listagem-pokemon {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-    
+
 }
 
 

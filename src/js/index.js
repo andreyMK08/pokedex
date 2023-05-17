@@ -24,37 +24,71 @@ botaoAlterarTema.addEventListener("click", () => {
 
 });
 
-const botaoAlterarImagem = document.getElementById("botao-alterar-imagem");
-
-console.log(botaoAlterarImagem);
-
-const imagemBotaoTrocaImagem = document.querySelector(".logo");
 
 
-botaoAlterarImagem.addEventListener("click", () => {
+var botaoAlterarImagem = document.getElementById('botao-alterar-imagem');
+var imagemBotaoTrocaImagem = botaoAlterarImagem.querySelector('img');
 
-    const trocarImagem = body.classList.contains("trocar-imagem");
+var liData = {
+  bulbasaur: {
+    novaImagem: "./src/imagens/card-bulbasaur.png"
+  },
+  Ivysaur: {
+    novaImagem: "./src/imagens/card-ivysaur.png"
+  },
+  squirtle: {
+    novaImagem: "./src/imagens/nova-imagem-squirtle.gif"
+  }
+};
 
-    body.classList.toggle("trocar-imagem");
+botaoAlterarImagem.addEventListener("click", function() {
+  for (var liId in liData) {
+    var liElement = document.getElementById(liId);
+    var liInfo = liData[liId];
+    var trocarImagem = liElement.classList.contains("trocar-imagem");
 
     if (trocarImagem) {
-
-        imagemBotaoTrocaImagem.setAttribute("src", "./src/imagens/pokeball.png");
-
+      // Voltar para a imagem original
+      imagemBotaoTrocaImagem.setAttribute("src", "./src/imagens/pokeball.png");
+      liElement.innerHTML = liElement.dataset.conteudoOriginal;
+      liElement.classList.remove('nova-imagem-li');
     } else {
-        imagemBotaoTrocaImagem.setAttribute("src", "./src/imagens/logo-pokebola-aberta.png");
+      // Substituir pela nova imagem
+      imagemBotaoTrocaImagem.setAttribute("src", "./src/imagens/logo-pokebola-aberta.png");
 
-    };
+      if (!liElement.dataset.conteudoOriginal) {
+        // Salvar o conteúdo original
+        liElement.dataset.conteudoOriginal = liElement.innerHTML;
+      }
 
+      // Limpar o conteúdo atual da <li>
+      liElement.innerHTML = '';
 
+      // Criar a nova imagem
+      var novaImagem = document.createElement('img');
+      novaImagem.src = liInfo.novaImagem;
+      novaImagem.alt = "Nova Imagem";
+      novaImagem.classList.add('nova-imagem');
+
+      // Estilizar a nova imagem
+      novaImagem.style.padding = "0";
+      novaImagem.style.width = "100%";
+      novaImagem.style.height = "100%";
+      novaImagem.style.objectFit = "cover";
+
+      // Anexar a nova imagem à <li>
+      liElement.appendChild(novaImagem);
+
+      // Adicionar classes para estilização
+      liElement.classList.add('nova-imagem-li');
+    }
+
+    // Alternar a classe "trocar-imagem"
+    liElement.classList.toggle("trocar-imagem");
+  }
 });
 
 
-
-var elementosBulbasaur = document.querySelectorAll('.cartao-pokemon:contains("Bulbasaur")');
-elementosBulbasaur.forEach(function(elemento) {
-  elemento.classList.add('bulbasaur');
-});
 
 
 
