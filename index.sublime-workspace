@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aLIG",
+				"text-align"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"al",
+				"alt"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"termi",
+				"Terminal: Open"
+			],
+			[
+				"terminal ",
+				"Terminal: Open in project folder"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/H/DesenvolvimentoMobile/Estudos/Dart/Aula01_InstalacaoDart.txt",
+		"/C/Users/Developer-00/Desktop/repositorio/Leitor_Email/Leitor_Email/Program.cs",
+		"/C/Users/Developer-00/Downloads/10_TarefasApi/TarefasApi/TarefasApi/appsettings.json",
+		"/H/DesenvolvimentoMobile/Estudos/Aula01_InstalacaoDart.txt",
+		"/C/Users/Developer-00/Downloads/snippets.html",
+		"/C/Users/Developer-00/Documents/AuditTraining/AuditTreinamentos/AuditTreinamentos/Models/Treinamento.cs",
+		"/C/Users/Developer-00/Documents/LanchesVendas/MVC_2022/Estudos/PARTE03_ControllersViews/Aula03ConceitosViewDataViewBagTempData.txt",
+		"/C/Users/Developer-00/Documents/Varejista/Front/Varejista/src/app/app.component.html",
+		"/C/Users/Developer-00/Documents/AuditTraining/AuditTreinamentos/AuditTreinamentos/Startup.cs",
+		"/C/Users/Developer-00/Documents/AuditTraining/AuditTreinamentos/AuditTreinamentos/appsettings.json",
+		"/C/Publicados/Training/appsettings.json",
+		"/C/Users/Developer-00/Downloads/dart-orientacao-objetos-aula04/dart-orientacao-objetos-aula04/bin/dart_curso.dart",
+		"/C/Users/Developer-00/Documents/ProEventos/Back/src/ProEventos.API/Program.cs",
+		"/C/Users/Developer-00/Documents/ProEventos/Back/src/ProEventos.Domain/ProEventos.Domain.csproj",
+		"/C/Users/Developer-00/Documents/ProEventos/Back/src/ProEventos.sln",
+		"/C/Users/Developer-00/Documents/ProEventos/SECTION03.txt",
+		"/C/Users/Developer-00/Documents/ProEventos/SECTION02.txt",
+		"/C/Users/Developer-00/Documents/ProEventos/SECTION01.txt",
+		"/C/Users/Developer-00/Documents/AreaDeTeste/navbar/index.cshtml",
+		"/C/Users/Developer-00/Documents/LanchesVendas/MVC_2022/Areas/Admin/Views/Admin/Index.cshtml",
+		"/C/Users/Developer-00/Downloads/6_CriaLinkAdmin/LanchesMac/LanchesMac/Views/Shared/_Layout.cshtml",
+		"/C/Users/Developer-00/Downloads/LanchesMac_NET7/23_NET7_Migra/LanchesMac/Program.cs",
+		"/C/Users/Developer-00/Downloads/6_CriaLinkAdmin/LanchesMac/LanchesMac/Services/SeedUserRoleInitial.cs",
+		"/C/Users/Developer-00/AppData/Local/Temp/Temp2_3_LocalizaLanche.zip/LanchesMac/LanchesMac/Views/Shared/_Layout.cshtml",
+		"/C/Users/Developer-00/Documents/LanchesVendas/MVC_2022/appsettings.json",
+		"/C/Users/Developer-00/Documents/LanchesVendas/MVC_2022/Program.cs",
+		"/C/Users/Developer-00/Downloads/LanchesMac_NET6/LanchesMac_NET6/LanchesMac/LanchesMac/Extensao/MetodosExtensao.cs",
+		"/C/Users/Developer-00/Downloads/LanchesMac_NET6/LanchesMac_NET6/LanchesMac/LanchesMac/Areas/Admin/Views/Admin/Index.cshtml",
+		"/C/Users/Developer-00/Downloads/2_AreaAdmin1/LanchesMac/LanchesMac/Views/Shared/_LoginPartial.cshtml",
+		"/C/Users/Developer-00/Downloads/7_RegisterView.txt",
+		"/C/Users/Developer-00/Documents/Migrations/20230808151855_PopulandoPostagens.cs",
+		"/D/LIVROSFISCAIS/JHSF/Catarina Fashion Outlet/Livros Fiscais_2/Adidas/CFOP/CFOP/11. RESUMO_CFOP_C_70000058E_01112022_30112022_N.txt",
+		"/C/Users/Developer-00/Downloads/PedidoDetalhe.cs",
+		"/D/LIVROSFISCAIS/JHSF/CIDADE_JARDIM_PLANILHAS/Livros Fiscais CIDADE JARDIM/CIDADE JARDIM - Livros Fiscais Junho/Makoto/Livros/31512297000106-119974980117-20220801-20220831-0-332139324E4658C2B36A7294A74B2056C0497028-SPED-EFD.txt",
+		"/D/AuditRepositorio/ControlMalls/ControlMalls.sln",
+		"/C/Wi-Fi-VIVOFIBRA-8A78-5G.xml",
+		"/C/Users/Developer-00/Documents/EstudosMSSQLSERVER/PARTE02_ConceitosAvancados/Arquivos/Carga_Cadastros.sql",
+		"/C/Users/Developer-00/Documents/EstudosMSSQLSERVER/PARTE02_ConceitosAvancados/Arquivos/Cria_Banco.sql",
+		"/C/Users/Developer-00/Documents/EstudosMSSQLSERVER/PARTE01_ConceitosBasicos/Aula01CriandoBaseDeDados.sql",
+		"/C/Users/Developer-00/Documents/EstudosMSSQLSERVER/PARTE01_ConceitosBasicos/Aula15IncluindoMaisDados.sql",
+		"/C/Users/Developer-00/Documents/Script geração de pacote/teste.txt",
+		"/C/AutoUpdater/Security Backup Files - Sync/Sistema/Program.cs",
+		"/C/AutoUpdater/Security Backup Files - Sync/Sistema/Principal.cs",
+		"/C/AutoUpdater/update/auto.xml",
+		"/C/Users/Developer-00/Documents/ajuda/app.module.ts",
+		"/C/Users/Developer-00/Documents/ajuda/pessoa-cartao.component.ts",
+		"/C/Users/Developer-00/Documents/ajuda/pessoa-cartao.component.html",
+		"/C/Users/Developer-00/Documents/ajuda/app.component.html",
+		"/C/Users/Developer-00/Documents/ajuda/pessoa-cadastro.component.ts",
+		"/C/Users/Developer-00/Documents/ajuda/pessoa-cadastro.component.html",
+		"/C/Users/Developer-00/Documents/ajuda/app.component.ts",
+		"/C/workSpaceAngular/AngularProject02/angular.json",
+		"/C/Users/Developer-00/Downloads/index.js",
+		"/C/Publicados/Portal Vendas/web.config",
+		"/C/workSpaceAngular/AngularProject01/angular.json",
+		"/C/Users/Developer-00/Documents/indexobs.js",
+		"/C/wsAngular/angularProject/angular.json",
+		"/D/index.js",
+		"/C/Base10/Security Backup Files - Sync/Setup_SBF_Client/Setup_SBF_Client.vdproj",
+		"/C/Base10/Security Backup Files - Sync/Sistema/Sistema.csproj.user",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula0206-09/Observacoes/package-lock.json",
+		"/C/Base10/Security Backup Files - Sync/Sistema/obj/Debug/Sistema.csproj.CoreCompileInputs.cache",
+		"/C/Base10/Security Backup Files - Sync/Sistema/obj/Debug/Sistema.csproj.GenerateResource.cache",
+		"/C/Base10/Security Backup Files - Sync/Sistema/obj/Debug/Sistema.csproj.CopyComplete",
+		"/C/Base10/Security Backup Files - Sync/Sistema/obj/Debug/Sistema.csproj.FileListAbsolute.txt",
+		"/C/Base10/Security Backup Files - Sync/DigitalMallsSync.jmconfig",
+		"/C/Base10/Security Backup Files - Sync/Sistema/obj/Debug/Sistema.csproj.AssemblyReference.cache",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula0206-09/Observacoes/package.json",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula0206-09/Observacoes/index.js",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula0206-09/Lembretes/index.js",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula0206-09/Lembretes/package.json",
+		"/C/Users/Developer-00/Documents/UsabilidadeDesenvolvimentoWeb/Aula01-09/Exercicio1.html",
+		"/C/ControlSync/index.html",
+		"/C/Users/Developer-00/Documents/UsabilidadeDesenvolvimentoWeb/Aula01-09/index.html",
+		"/C/Users/Developer-00/Documents/Alura-PromptDeComando/TrabalhandoNaLinhaDeComando.txt",
+		"/C/Users/Developer-00/Documents/Alura-PromptDeComando/Program.cs",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula30-08/package-lock.json",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula30-08/package.json",
+		"/C/Users/Developer-00/Documents/SistemasDistribuidosPresencial/Aula30-08/myJS.js",
+		"/C/Security Backup Files - Sync/Sistema/bin/Release/app.publish/ControlSync.application",
+		"/C/Security Backup Files - Sync/Sistema/bin/Release/app.publish/Application Files/ControlSync_3_2_4_26/System.Xml.ReaderWriter.dll.deploy",
+		"/D/DesenvolvimentoWeb/Seção 5 - CSS 3 Intermediário e Avançado/7-LayoutDeLarguraFixa/index.html",
+		"/C/Users/Developer-00/Documents/SQL Server Management Studio/SQLQuery1.sql",
+		"/C/Users/Developer-00/Documents/2021_15430/2021/01/23210100602414000190592300979700413555023968.xml"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Aula30-08\\myJS.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
